@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AppTest</string>
+    <string name="topuptagihan">TopUp &amp; Tagihan</string>
+    <string name="coin">553.269</string>
+    <string name="agen">Agen</string>
+    <string name="create_new_password">Create New Password</string>
+    <string name="Password">Password</string>
+    <string name="ConfirmPassword">Confirm Password</string>
+    <string name="alert1">Must be at least 8 characters.</string>
+    <string name="alert2">Both passwords must match.</string>
+    <string name="tv_helper_make_password">Buat Password Untuk Jadi Agen</string>
+    <string name="tv_helper_make_password_2">Dapatkan lebih banyak keuntungan!</string>
+    <string name="mini_game">Mini Game</string>
+    <string name="buat_password">Buat Password</string>
+    <string name="nanti">Nanti</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</string>
+    <string name="ok">Ok</string>
+    <string name="password_berhasil_dibuat">Password berhasil dibuat</string>
+    <string name="selamat_pin_berhasil_dirubah_gunakan_untuk_aktifitas_di_dalam_cashtree">Selamat, Pin berhasil dirubah, gunakan \n untuk aktifitas di dalam cashtree</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
