@@ -4,6 +4,8 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.bimabagaskhoro.apptest.databinding.ActivityHomeBinding
+import com.bimabagaskhoro.apptest.ui.minigame.MiniGameFragment
+import com.bimabagaskhoro.apptest.ui.password.CreatePasswordActivity
 
 class HomeActivity : AppCompatActivity() {
 

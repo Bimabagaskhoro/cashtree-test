@@ -14,7 +14,8 @@
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.24367675781249998" />
         <entry key="app/src/main/res/layout/bottom_sheet_dialogs.xml" value="0.19610507246376813" />
-        <entry key="app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_mini_game.xml" value="0.25" />
       </map>
     </option>
   </component>

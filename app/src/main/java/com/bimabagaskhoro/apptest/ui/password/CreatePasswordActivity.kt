@@ -1,10 +1,10 @@
-package com.bimabagaskhoro.apptest.ui
+package com.bimabagaskhoro.apptest.ui.password
 
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import com.bimabagaskhoro.apptest.databinding.ActivityCreatePasswordBinding
-
+import com.bimabagaskhoro.apptest.ui.HomeActivity
 
 class CreatePasswordActivity : AppCompatActivity() {
 

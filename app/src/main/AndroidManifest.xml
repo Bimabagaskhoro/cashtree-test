@@ -3,6 +3,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.bimabagaskhoro.apptest">
 
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -14,7 +17,7 @@
         android:theme="@style/Theme.AppTest"
         tools:targetApi="31">
         <activity
-            android:name=".ui.CreatePasswordActivity"
+            android:name=".ui.password.CreatePasswordActivity"
             android:exported="false" />
         <activity
             android:name=".ui.MainActivity"

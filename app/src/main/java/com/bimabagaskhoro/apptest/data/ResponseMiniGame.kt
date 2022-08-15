@@ -1,4 +1,4 @@
-package com.bimabagaskhoro.apptest.data.source.remote.response
+package com.bimabagaskhoro.apptest.data
 
 import android.os.Parcelable
 import com.google.gson.annotations.SerializedName

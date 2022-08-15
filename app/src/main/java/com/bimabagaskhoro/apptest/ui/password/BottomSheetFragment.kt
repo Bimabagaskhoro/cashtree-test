@@ -1,4 +1,4 @@
-package com.bimabagaskhoro.apptest.ui
+package com.bimabagaskhoro.apptest.ui.password
 
 import android.os.Bundle
 import android.view.LayoutInflater

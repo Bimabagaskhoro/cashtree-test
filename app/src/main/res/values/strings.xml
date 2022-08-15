@@ -19,4 +19,7 @@
     <string name="selamat_pin_berhasil_dirubah_gunakan_untuk_aktifitas_di_dalam_cashtree">Selamat, Pin berhasil dirubah, gunakan \n untuk aktifitas di dalam cashtree</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tools_1">Cats, just like people,  are subject to asthma. Dust, smoke,  and other forms of air pullution in your cat\'s environment can be troublesome sources of irritation.</string>
+    <string name="asd">Cats, just like people, are subject to asthma. Dust, smoke, and other forms of air pullution in your cats environment can be troublesome sources of irritation.</string>
+    <string name="reaload">Reaload</string>
 </resources>
