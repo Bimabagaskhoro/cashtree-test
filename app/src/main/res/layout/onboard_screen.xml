@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_onboard">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_tittle_onboard"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/exits" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="290dp"
+        android:layout_height="420dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_onboard"
+                android:layout_width="212dp"
+                android:layout_height="152dp"
+                android:layout_marginTop="22dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/img_onboard" />
+
+            <TextView
+                android:id="@+id/tv_tittle_2_onboard"
+                android:layout_width="172dp"
+                android:layout_height="56dp"
+                android:layout_marginTop="16dp"
+                android:gravity="center"
+                android:text="@string/lorem_onboard"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="@+id/img_onboard"
+                app:layout_constraintStart_toStartOf="@+id/img_onboard"
+                app:layout_constraintTop_toBottomOf="@+id/img_onboard" />
+
+            <TextView
+                android:id="@+id/tv_desc_onboard"
+                android:layout_width="222dp"
+                android:layout_height="101dp"
+                android:layout_marginTop="8dp"
+                android:gravity="center"
+                android:text="@string/lorem_desc_onboard"
+                android:textSize="14sp"
+                app:layout_constraintEnd_toEndOf="@+id/tv_tittle_2_onboard"
+                app:layout_constraintStart_toStartOf="@+id/tv_tittle_2_onboard"
+                app:layout_constraintTop_toBottomOf="@+id/tv_tittle_2_onboard" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/tv_tittle_onboard"
+        android:layout_width="223dp"
+        android:layout_height="19dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:text="@string/lorem_1_onboard"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="@+id/cardView"
+        app:layout_constraintStart_toStartOf="@+id/cardView" />
+</androidx.constraintlayout.widget.ConstraintLayout>

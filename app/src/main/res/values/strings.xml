@@ -22,4 +22,10 @@
     <string name="tools_1">Cats, just like people,  are subject to asthma. Dust, smoke,  and other forms of air pullution in your cat\'s environment can be troublesome sources of irritation.</string>
     <string name="asd">Cats, just like people, are subject to asthma. Dust, smoke, and other forms of air pullution in your cats environment can be troublesome sources of irritation.</string>
     <string name="reaload">Reaload</string>
+    <string name="lorem_onboard">Lorem Ipsum Dolor Sit Amet</string>
+    <string name="lorem_desc_onboard">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</string>
+    <string name="lorem_1_onboard">Benefit 1. Lorem ipsum dolor sit amet</string>
+    <string name="lorem_2_onboard">Benefit 2. Lorem ipsum dolor sit amet</string>
+    <string name="lorem_3_onboard">Benefit 3. Lorem ipsum dolor sit amet</string>
+    <string name="home">Home</string>
 </resources>

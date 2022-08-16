@@ -3,19 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="../../../../../layout/custom_preview.xml" value="0.10847628657921292" />
         <entry key="app/src/main/res/drawable/ic_baseline_visibility_off_24.xml" value="0.1685" />
+        <entry key="app/src/main/res/drawable/indicator_selector.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/menu_back.xml" value="0.123" />
         <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.1685" />
         <entry key="app/src/main/res/drawable/rounded_button_2.xml" value="0.1685" />
         <entry key="app/src/main/res/drawable/rounded_button_3.xml" value="0.1685" />
+        <entry key="app/src/main/res/drawable/selected.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/unselected.xml" value="0.47825927734375007" />
         <entry key="app/src/main/res/layout/activity_creat_password.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/activity_create_password.xml" value="0.30237274169921874" />
         <entry key="app/src/main/res/layout/activity_home.xml" value="0.2239044189453125" />
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2241953385127636" />
         <entry key="app/src/main/res/layout/bottom_sheet_dialog.xml" value="0.24367675781249998" />
         <entry key="app/src/main/res/layout/bottom_sheet_dialogs.xml" value="0.19610507246376813" />
         <entry key="app/src/main/res/layout/fragment_bottom_sheet.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_first_on_boarding.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_last_on_boarding.xml" value="0.14936370849609373" />
         <entry key="app/src/main/res/layout/fragment_mini_game.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_second_on_boarding.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/onboard_screen.xml" value="0.4641265869140625" />
       </map>
     </option>
   </component>

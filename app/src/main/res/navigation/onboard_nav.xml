@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/onboard_nav.xml"
+    app:startDestination="@id/firstOnBoardingFragment">
+
+    <fragment
+        android:id="@+id/firstOnBoardingFragment"
+        android:name="com.bimabagaskhoro.apptest.ui.onBoarading.FirstOnBoardingFragment"
+        android:label="fragment_first_on_boarding"
+        tools:layout="@layout/fragment_first_on_boarding" >
+        <action
+            android:id="@+id/action_firstOnBoardingFragment_to_secondOnBoardingFragment"
+            app:destination="@id/secondOnBoardingFragment" />
+        <action
+            android:id="@+id/action_firstOnBoardingFragment_to_lastOnBoardingFragment"
+            app:destination="@id/lastOnBoardingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/secondOnBoardingFragment"
+        android:name="com.bimabagaskhoro.apptest.ui.onBoarading.SecondOnBoardingFragment"
+        android:label="fragment_second_on_boarding"
+        tools:layout="@layout/fragment_second_on_boarding" >
+        <action
+            android:id="@+id/action_secondOnBoardingFragment_to_lastOnBoardingFragment"
+            app:destination="@id/lastOnBoardingFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/lastOnBoardingFragment"
+        android:name="com.bimabagaskhoro.apptest.ui.onBoarading.OnBoardingFragment"
+        android:label="fragment_last_on_boarding"
+        tools:layout="@layout/fragment_on_boarding" />
+</navigation>
